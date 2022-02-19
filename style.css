@@ -9,17 +9,19 @@ body {
     background-color: hsl(204, 43%, 93%);
 }
 
+
+/* Inicio de estilo de fonte de letras*/
+
 h1 {
     color: hsl(179, 62%, 43%);
-    margin-bottom: 43PX;
+    margin-bottom: 43px;
     font-family: 'Karla', sans-serif;
     font-weight: 700;
 }
 
 h2 {
-    margin-bottom: 23PX;
+    margin-bottom: 43px;
     font-family: 'Karla', sans-serif;
-    margin-bottom: 23px;
     color: #7FFF00;
 }
 
@@ -33,7 +35,7 @@ h3 {
 p {
     font-family: 'Karla', sans-serif;
     color: rgb(175, 170, 170);
-    margin-bottom: 25px;
+    margin-bottom: 16px;
 }
 
 strong {
@@ -44,6 +46,8 @@ strong {
 
 small {
     color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
 }
 
 .text {
@@ -57,6 +61,9 @@ small {
     margin: 7px;
 }
 
+
+/* Fim de estilo de fonte de letras*/
+
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -66,6 +73,9 @@ small {
     box-shadow: 1px 2px 15px black;
 }
 
+
+/* Inicio  de estilo da sessão principal*/
+
 .principal {
     grid-column-start: 1;
     grid-column-end: 5;
@@ -74,6 +84,12 @@ small {
     padding: 41px;
     background-color: white;
 }
+
+
+/* fim  de estilo da sessão principal*/
+
+
+/* Inicio  de estilo da sessão 1*/
 
 .sc1 {
     background-color: hsl(179, 83%, 30%);
@@ -97,6 +113,12 @@ button {
     margin-top: 23px;
 }
 
+
+/* Fim  de estilo da sessão 1*/
+
+
+/* Inicio  de estilo do fotter*/
+
 .ft {
     background-color: hsl(179, 62%, 43%);
     grid-column-start: 3;
@@ -106,6 +128,9 @@ button {
     grid-row-end: 5;
     padding: 40px;
 }
+
+
+/* Fim  de estilo do fotter*/
 
 @media(max-width: 475px) {
     .container {
